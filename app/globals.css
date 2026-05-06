@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@theme {
+  /* Logo Blue Palette (#017DD0) */
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+  --color-primary-300: #7dd3fc;
+  --color-primary-400: #38bdf8;
+  --color-primary-500: #017dd0; /* Main Logo Color */
+  --color-primary-600: #026bb4;
+  --color-primary-700: #035694;
+  --color-primary-800: #074a7d;
+  --color-primary-900: #0c3e69;
+  --color-primary-950: #082846;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #020617; /* Very deep slate */
+  }
+  
+  .dark {
+    --background: #020617; /* Very deep slate */
+    --foreground: #f8fafc;
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Add a cinematic noise overlay to the entire site */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@font-face {
+    font-family: GeneralSans;
+    src: url('../public/fonts/GeneralSans-Regular.otf');
+}
+@font-face {
+    font-family: GeneralSemibold;
+    src: url('../public/fonts/GeneralSans-Semibold.otf');
+}
+@font-face {
+    font-family: GeneralBold;
+    src: url('../public/fonts/GeneralSans-Bold.otf');
+}
+
+.regular {
+    font-family: GeneralSans;
+    letter-spacing: -0.01em;
+}
+.semibold {
+    font-family: GeneralSemibold;
+    letter-spacing: -0.02em;
+}
+.bold {
+    font-family: GeneralBold;
+    letter-spacing: -0.04em;
+}
+
+/* Awwwards Style Utilities */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+.text-outline-dark {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(2, 6, 23, 0.2);
+}
+.text-outline-blue {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(1, 125, 208, 0.5);
+}
+
+.clip-arch {
+  clip-path: ellipse(150% 100% at 50% 100%);
+}
+
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+/* Ethereal Glow Utilities */
+.glow-bg {
+  position: relative;
+}
+.glow-bg::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(circle, rgba(1, 125, 208, 0.15) 0%, rgba(0,0,0,0) 60%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Elegant scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: #017dd0; 
+  border-radius: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
