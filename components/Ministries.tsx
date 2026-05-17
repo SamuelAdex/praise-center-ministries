@@ -58,10 +58,10 @@ export default function Ministries() {
   }, []);
 
   const ministries = [
-    { title: "Youth Alive", subtitle: "Empowering the Next Generation", desc: "A vibrant community where young people discover their identity in Christ and are equipped to lead.", img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/v1778072068/Gemini_Generated_Image_n5a3k4n5a3k4n5a3_bkdwap.png", color: "from-blue-600 to-primary-500" },
-    { title: "Women of Valor", subtitle: "Strength, Grace & Purpose", desc: "Connecting women across all stages of life to grow spiritually, emotionally, and professionally.", img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/f_auto/v1778072628/Gemini_Generated_Image_n0oyitn0oyitn0oy_vqqbr6.png", color: "from-primary-500 to-indigo-600" },
-    { title: "Men of Honor", subtitle: "Building Kingdom Leaders", desc: "Forging strong men who lead their families and communities with integrity and godly wisdom.", img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/f_auto/v1778072986/Gemini_Generated_Image_dakj2bdakj2bdakj_fzer1d.png", color: "from-indigo-600 to-slate-800" },
-    { title: "Kids Kingdom", subtitle: "Nurturing Little Hearts", desc: "A fun, safe, and engaging environment where children learn to love God and others.", img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/v1778073373/Gemini_Generated_Image_3tab7g3tab7g3tab_oyzlhg.png", color: "from-primary-400 to-blue-500" }
+    { title: "Youth Aflame", subtitle: "Empowering the Next Generation", desc: "A vibrant community where young people discover their identity in Christ and are equipped to lead.", img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/v1778072068/Gemini_Generated_Image_n5a3k4n5a3k4n5a3_bkdwap.png", color: "from-blue-600 to-primary-500" },
+    { title: "Women of Excellence", subtitle: "Strength, Grace & Purpose", desc: "Connecting women across all stages of life to grow spiritually, emotionally, and professionally.", img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/f_auto/v1778072628/Gemini_Generated_Image_n0oyitn0oyitn0oy_vqqbr6.png", color: "from-primary-500 to-indigo-600" },
+    { title: "Men Alive", subtitle: "Building Kingdom Leaders", desc: "Forging strong men who lead their families and communities with integrity and godly wisdom.", img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/f_auto/v1778072986/Gemini_Generated_Image_dakj2bdakj2bdakj_fzer1d.png", color: "from-indigo-600 to-slate-800" },
+    { title: "Teens Ministry", subtitle: "Nurturing Little Hearts", desc: "A fun, safe, and engaging environment where children learn to love God and others.", img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/v1778073373/Gemini_Generated_Image_3tab7g3tab7g3tab_oyzlhg.png", color: "from-primary-400 to-blue-500" }
   ];
 
   return (

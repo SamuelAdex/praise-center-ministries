@@ -32,17 +32,17 @@ export default function Testimonies() {
 
   const testimonies = [
     {
-      name: "Sarah Jenkins",
+      name: "Sis. Amarachi",
       text: "Coming to Praise Center completely turned my life around. The warmth of the community and the powerful teachings helped me find my true purpose.",
-      img: "/images/testimony_person_1_1777830675090.png"
+      img: null
     },
     {
-      name: "Michael Roberts",
+      name: "Bro. Bobby",
       text: "I walked in broken, but through the continuous prayer and support of the pastoral team, my family was restored. Truly a place of healing.",
       img: null // fallback initials
     },
     {
-      name: "Emily Davis",
+      name: "Sis. Melody",
       text: "The worship here is incredible. Every service feels like a direct encounter with God. I'm so blessed to call this my home church.",
       img: null // fallback initials
     }
@@ -56,12 +56,12 @@ export default function Testimonies() {
           Grace
         </h2>
       </div>
-      
+
       <div className="absolute top-0 left-0 w-full h-full opacity-30 pointer-events-none z-0">
-         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary-600 rounded-full blur-[150px] opacity-20"></div>
-         <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-primary-400 rounded-full blur-[150px] opacity-20"></div>
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary-600 rounded-full blur-[150px] opacity-20"></div>
+        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-primary-400 rounded-full blur-[150px] opacity-20"></div>
       </div>
-      
+
       <div className="container mx-auto px-6 max-w-7xl relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 testimony-header">
           <div>
@@ -72,7 +72,7 @@ export default function Testimonies() {
               </span>
             </div>
             <h2 className="text-5xl md:text-7xl font-bold tracking-tighter leading-[1.1]">
-              Changed <br/>
+              Changed <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-300 italic">Lives.</span>
             </h2>
           </div>
@@ -85,12 +85,12 @@ export default function Testimonies() {
           {testimonies.map((t, i) => (
             <div key={i} className="testimony-card bg-[#020617]/80 backdrop-blur-2xl p-10 border border-white/10 hover:border-primary-500/50 transition-all duration-500 group relative">
               <Quote className="absolute top-8 right-8 text-primary-500/10 group-hover:text-primary-500/20 transition-colors duration-500" size={80} />
-              
+
               <div className="relative z-10">
                 <p className="text-slate-300 text-xl mb-12 leading-relaxed font-light regular italic min-h-[120px]">
                   "{t.text}"
                 </p>
-                
+
                 <div className="flex items-center gap-6 mt-auto">
                   {t.img ? (
                     <div className="relative w-16 h-16 rounded-full overflow-hidden border border-primary-500/30 group-hover:border-primary-500 transition-colors duration-500 filter grayscale group-hover:grayscale-0">

@@ -100,9 +100,9 @@ export default function ChoirSection() {
               </span>
             </div>
             <h2 className="text-6xl md:text-9xl font-bold text-white tracking-tighter leading-[0.9]">
-              <div>{splitText("Voices of")}</div>
+              <div>{splitText("Praise")}</div>
               <div className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-white italic">
-                {splitText("Eternity.")}
+                {splitText("Warriors.")}
               </div>
             </h2>
           </div>

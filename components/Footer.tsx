@@ -85,12 +85,12 @@ export default function Footer() {
                 <span className="text-primary-400 font-bold bg-primary-500/10 px-3 py-1 rounded-full">8:00 AM</span>
               </li>
               <li className="flex justify-between items-center text-sm border-b border-white/5 p-4">
-                <span className="text-slate-300 font-semibold">Wednesday Bible</span>
-                <span className="text-primary-400 font-bold bg-primary-500/10 px-3 py-1 rounded-full">6:00 PM</span>
+                <span className="text-slate-300 font-semibold">Monday Bible Studies</span>
+                <span className="text-primary-400 font-bold bg-primary-500/10 px-3 py-1 rounded-full">5:00 PM</span>
               </li>
               <li className="flex justify-between items-center text-sm p-4">
-                <span className="text-slate-300 font-semibold">Friday Prayer</span>
-                <span className="text-primary-400 font-bold bg-primary-500/10 px-3 py-1 rounded-full">10:00 PM</span>
+                <span className="text-slate-300 font-semibold">Friday Night Vigils</span>
+                <span className="text-primary-400 font-bold bg-primary-500/10 px-3 py-1 rounded-full">09:30 PM</span>
               </li>
             </ul>
           </div>

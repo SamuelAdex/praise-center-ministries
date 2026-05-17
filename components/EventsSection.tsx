@@ -58,23 +58,24 @@ export default function EventsSection() {
 
   const yearlyEvents = [
     {
-      title: "Annual Global Convention",
-      date: "August 12 - 18, 2026",
+      title: "Men of Alive",
+      date: "June 12 - 13, 2026",
+      desc: "Empowering Men to walk in their God-given purpose.",
+      img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/v1778070662/Gemini_Generated_Image_ddisucddisucddis_fmjxzn.png" // reusing image for layout completion
+    },
+    {
+      title: "International Convention",
+      date: "October 7 - 11, 2026",
       desc: "A week of powerful word, worship, and supernatural encounters.",
       img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/v1778070662/Gemini_Generated_Image_ddisucddisucddis_fmjxzn.png"
     },
-    {
-      title: "Women of Valor Retreat",
-      date: "March 5 - 7, 2026",
-      desc: "Empowering women to walk in their God-given purpose.",
-      img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/v1778070662/Gemini_Generated_Image_ddisucddisucddis_fmjxzn.png" // reusing image for layout completion
-    }
   ];
 
   const monthlyEvents = [
-    { title: "First Fruit Service", time: "1st Sunday, 8:00 AM", location: "Main Auditorium", icon: Calendar },
-    { title: "Mid-week Communion", time: "Every Wednesday, 6:00 PM", location: "Grace Chapel", icon: Clock },
-    { title: "Night of Worship", time: "Last Friday, 10:00 PM", location: "Main Auditorium", icon: MapPin },
+    { title: "Anointing Service", time: "1st Sunday, 8:00 AM", location: "Main Auditorium", icon: Calendar },
+    { title: "Monday Bible Study", time: "Every Monday, 5:00 PM", location: "Grace Chapel", icon: Clock },
+    { title: "Mid-Week Super Service", time: "Every Wednesday, 5:00 PM", location: "Main Auditorium", icon: MapPin },
+    { title: "Night Vigil", time: "Every Third Friday, 09:30 PM", location: "Main Auditorium", icon: MapPin },
   ];
 
   return (

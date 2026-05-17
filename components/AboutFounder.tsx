@@ -114,7 +114,7 @@ export default function AboutFounder() {
 
             <div className="founder-text mt-12">
               <a href="#contact" className="group inline-flex items-center gap-4 px-10 py-5 bg-[#020617] dark:bg-white text-white dark:text-[#020617] rounded-none font-bold transition-all hover:bg-primary-500 hover:text-white uppercase tracking-widest text-sm">
-                Connect with the Pastor
+                Connect with the Bishop
                 <span className="w-8 h-[1px] bg-white dark:bg-[#020617] group-hover:bg-white transition-colors group-hover:w-12"></span>
               </a>
             </div>
