@@ -73,8 +73,9 @@ export default function EventsSection() {
 
   const monthlyEvents = [
     { title: "Anointing Service", time: "1st Sunday, 8:00 AM", location: "Main Auditorium", icon: Calendar },
-    { title: "Monday Bible Study", time: "Every Monday, 5:00 PM", location: "Grace Chapel", icon: Clock },
+    { title: "Monday Bible Study", time: "Every Monday, 5:00 PM", location: "Main Auditorium", icon: Clock },
     { title: "Mid-Week Super Service", time: "Every Wednesday, 5:00 PM", location: "Main Auditorium", icon: MapPin },
+    { title: "Spiritual Cafeteria", time: "Every Thursday, 10:00 AM", location: "Main Auditorium", icon: MapPin },
     { title: "Night Vigil", time: "Every Third Friday, 09:30 PM", location: "Main Auditorium", icon: MapPin },
   ];
 

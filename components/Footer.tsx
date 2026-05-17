@@ -71,7 +71,7 @@ export default function Footer() {
                 <div className="w-10 h-10 rounded-full bg-primary-500/10 flex items-center justify-center text-primary-500 shrink-0">
                   <Mail size={18} />
                 </div>
-                <span className="text-slate-400 regular">pcciowerri@gmail.com</span>
+                <span className="text-slate-400 regular text-wrap leading-[15px] md:w-[200px]">infopraisecentreinternational<br />@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -82,10 +82,15 @@ export default function Footer() {
             <ul className="space-y-0 bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
               <li className="flex justify-between items-center text-sm border-b border-white/5 p-4 bg-white/5">
                 <span className="text-slate-300 font-semibold">Sunday Service</span>
-                <span className="text-primary-400 font-bold bg-primary-500/10 px-3 py-1 rounded-full">8:00 AM</span>
+                <span className="text-primary-400 font-bold bg-primary-500/10 px-3 p
+                y-1 rounded-full">8:00 AM</span>
               </li>
               <li className="flex justify-between items-center text-sm border-b border-white/5 p-4">
                 <span className="text-slate-300 font-semibold">Monday Bible Studies</span>
+                <span className="text-primary-400 font-bold bg-primary-500/10 px-3 py-1 rounded-full">5:00 PM</span>
+              </li>
+              <li className="flex justify-between items-center text-sm border-b border-white/5 p-4 bg-white/5">
+                <span className="text-slate-300 font-semibold">Mid-Week Super Service</span>
                 <span className="text-primary-400 font-bold bg-primary-500/10 px-3 py-1 rounded-full">5:00 PM</span>
               </li>
               <li className="flex justify-between items-center text-sm p-4">
