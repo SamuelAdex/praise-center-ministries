@@ -147,10 +147,10 @@ export default function Hero() {
           className="text-6xl md:text-[8vw] font-bold text-white leading-[0.9] tracking-tighter mb-8"
         >
           <div className="overflow-hidden">
-            {splitText("Where Souls")}
+            Where Souls
           </div>
           <div className="overflow-hidden text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-white italic">
-            {splitText("Find Home.")}
+            Find Home.
           </div>
         </h1>
 
