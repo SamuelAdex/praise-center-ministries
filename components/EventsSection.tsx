@@ -58,7 +58,7 @@ export default function EventsSection() {
 
   const yearlyEvents = [
     {
-      title: "Men of Alive",
+      title: "Men Alive",
       date: "June 12 - 13, 2026",
       desc: "Empowering Men to walk in their God-given purpose.",
       img: "https://res.cloudinary.com/samueladexcloudinary/image/upload/v1778070662/Gemini_Generated_Image_ddisucddisucddis_fmjxzn.png" // reusing image for layout completion
